@@ -36,14 +36,14 @@ let dog = objectDog
 
 //Code here
 
-// console.log(objectDog.name);
+console.log(objectDog.name);
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
 
-// console.log(objectDog.color);
+console.log(objectDog.color);
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -72,7 +72,7 @@ let favoriteThings = {
 
 //Code here
 
-// favoriteThings.sport = 'Soccer'
+favoriteThings.sport = 'Soccer'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -81,9 +81,9 @@ let favoriteThings = {
 
 //Code here
 
-// favoriteThings.food = 'Steak';
+favoriteThings.food = 'Steak';
 
-// console.log(favoriteThings);
+console.log(favoriteThings);
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -105,7 +105,7 @@ var carDetails = {
 let {color, make, model, year} = carDetails
 let dreamCar = carDetails
 
-// console.log(dreamCar);
+console.log(dreamCar);
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -212,7 +212,7 @@ class Cat {
   };
 };
 let cat1 = new Cat('Finkle', 4, 'orange');
-// console.log(cat1.name);
+console.log(cat1.name);
 
 
 
@@ -239,7 +239,7 @@ class Wizard {
 
 let gandalf = new Wizard('Gandalf', 354, 'Blinding light')
 
-// gandalf.castSpell()
+gandalf.castSpell()
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -310,8 +310,8 @@ let phone3 = new Phone('Samsung', 'Galaxy', '1gig', 'Lime Green', 1499);
 
 //Code Here 
 
-// phone2.changePrice(1299);
-// console.log(phone2);
+phone2.changePrice(1299);
+console.log(phone2);
 
 
 /*
@@ -322,8 +322,8 @@ let phone3 = new Phone('Samsung', 'Galaxy', '1gig', 'Lime Green', 1499);
 
 //Code Here 
 
-// phone1.sell();
-// console.log(phone1);
+phone1.sell();
+console.log(phone1);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
@@ -343,7 +343,7 @@ const colors = {
 
 //Code Here 
 
-// let colorsCopy = {...colors};
+let colorsCopy = {...colors};
 
 
 /*
@@ -374,7 +374,7 @@ const shippingInfo = {
 
 let helensInfo = {...contactInfo, ...shippingInfo};
 
-// console.log(helensInfo);
+console.log(helensInfo);
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
@@ -413,9 +413,10 @@ class Vehicle {
 */
 
 // //Code Here
-// let car1 = new Vehicle(4, 'black', 100000);
-// car1.move(25000);
-//  console.log (car1);
+let car1 = new Vehicle(4, 'black', 100000);
+car1.move(25000);
+ console.log (car1);
+ 
 /* 
   Now we'll create a class that's based off of the vehicle class. 
 
@@ -484,7 +485,6 @@ class Boat extends Vehicle{
     this.isSeaworthy = true;
   };
 };
-
 
 
 /*
