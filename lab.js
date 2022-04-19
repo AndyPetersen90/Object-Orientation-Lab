@@ -310,8 +310,8 @@ let phone3 = new Phone('Samsung', 'Galaxy', '1gig', 'Lime Green', 1499);
 
 //Code Here 
 
-phone2.changePrice(1299);
-console.log(phone2);
+// phone2.changePrice(1299);
+// console.log(phone2);
 
 
 /*
@@ -322,8 +322,8 @@ console.log(phone2);
 
 //Code Here 
 
-phone1.sell();
-console.log(phone1);
+// phone1.sell();
+// console.log(phone1);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
@@ -343,6 +343,7 @@ const colors = {
 
 //Code Here 
 
+let colorsCopy = [...colors];
 
 
 /*
@@ -371,6 +372,7 @@ const shippingInfo = {
 
 //Code Here
 
+let helensInfo = [...contactInfo, ...shippingInfo];
 
 //Print helensInfo to see what it looks like, there should be no repeating properties.
 
