@@ -239,7 +239,7 @@ class Wizard {
 
 let gandalf = new Wizard('Gandalf', 354, 'Blinding light')
 
-gandalf.castSpell()
+// gandalf.castSpell()
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -266,6 +266,23 @@ gandalf.castSpell()
 
 //Code Here
 
+class Phone {
+  constructor(brand, model, storage, color, price){
+    this.brand = brand;
+    this.model = model;
+    this.storage = storage;
+    this.color = color;
+    this.price = price;
+    this.sold = false
+  };
+  sell(){
+    this.sold = true
+    console.log(`${this.brand} ${this.model} has been sold.`);
+  };
+  changePrice(newPrice){
+    this.price = newPrice
+  };
+};
   
 /*
     Next make three new phone instances using your class.
@@ -279,6 +296,11 @@ gandalf.castSpell()
 
 //Code Here
 
+let phone1 = new Phone('Nokia', 'Brick', '1gig', 'Matte Black', 699);
+let phone2 = new Phone('Apple', 'iPhone36', '1gig', 'Purple', 1599);
+let phone3 = new Phone('Samsung', 'Galaxy', '1gig', 'Lime Green', 1499);
+
+
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -287,6 +309,9 @@ gandalf.castSpell()
 */ 
 
 //Code Here 
+
+phone2.changePrice(1299);
+console.log(phone2);
 
 
 /*
@@ -297,6 +322,8 @@ gandalf.castSpell()
 
 //Code Here 
 
+phone1.sell();
+console.log(phone1);
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
