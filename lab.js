@@ -48,19 +48,31 @@ console.log(objectDog.color);
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
-  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
+  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, 
+  holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
 //Code here
 
+let favoriteThings = {
+  band:'Pentatonix',
+  food:'Sushi',
+  person:'Wife',
+  book:'Hardy Boys Series',
+  movie:'UHF',
+  holiday:'4th of July'
+}
 
 /*
-  After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
+  After you've made your object, use bracket or dot notation to add another key named 'car' 
+  with the value being your favorite car and then another key named 'show' with the value 
+  being your favorite show.
 */
 
 //Code here
 
+favoriteThings.sport = 'Soccer'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -69,6 +81,9 @@ console.log(objectDog.color);
 
 //Code here
 
+favoriteThings.food = 'Steak';
+
+console.log(favoriteThings);
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
