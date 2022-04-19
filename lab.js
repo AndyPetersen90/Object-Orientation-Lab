@@ -212,7 +212,7 @@ class Cat {
   };
 };
 let cat1 = new Cat('Finkle', 4, 'orange');
-console.log(cat1.name);
+// console.log(cat1.name);
 
 
 
@@ -225,6 +225,21 @@ console.log(cat1.name);
 */
 
 //Code here
+
+class Wizard {
+  constructor(name, age, favoriteSpell){
+    this.name = name;
+    this.age = age;
+    this.favoriteSpell = favoriteSpell;
+  };
+  castSpell(){
+    console.log(`${this.name} has cast ${this.favoriteSpell}`);
+  };
+};
+
+let gandalf = new Wizard('Gandalf', 354, 'Blinding light')
+
+gandalf.castSpell()
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
