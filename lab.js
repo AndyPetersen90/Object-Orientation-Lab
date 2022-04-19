@@ -36,13 +36,14 @@ let dog = objectDog
 
 //Code here
 
-console.log(objectDog.name);
+// console.log(objectDog.name);
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
 
+console.log(objectDog.color);
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
