@@ -43,7 +43,7 @@ let dog = objectDog
 
 //Code here
 
-console.log(objectDog.color);
+// console.log(objectDog.color);
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -72,7 +72,7 @@ let favoriteThings = {
 
 //Code here
 
-favoriteThings.sport = 'Soccer'
+// favoriteThings.sport = 'Soccer'
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -81,9 +81,9 @@ favoriteThings.sport = 'Soccer'
 
 //Code here
 
-favoriteThings.food = 'Steak';
+// favoriteThings.food = 'Steak';
 
-console.log(favoriteThings);
+// console.log(favoriteThings);
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -102,7 +102,10 @@ var carDetails = {
 
 //Code Here
 
+let {color, make, model, year} = carDetails
+let dreamCar = carDetails
 
+// console.log(dreamCar);
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -115,6 +118,8 @@ var carDetails = {
 function greeting( obj ) {
   //Code Here
   
+  let {title: movieTitle} = greeting
+
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -134,6 +139,10 @@ function greeting( obj ) {
 
 //Code Here
 
+function totalPopulation(obj) {
+  let {utah, california, texas, arizona} = obj;
+  return utah + california + texas + arizona;
+}
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
@@ -148,6 +157,10 @@ function greeting( obj ) {
 
 //Code Here
 
+function ingredients(object) {
+  let {carb, fat, protein} = essentials
+  return [carb, fat, protein]
+}
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
