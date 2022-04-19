@@ -1,11 +1,15 @@
 //////////////////////////// PROBLEM 1 ////////////////////////////
 /*
   Create an object called me.
-  Give it a key of name with the value being your name, and another key of age with the value being your age.
+  Give it a key of name with the value being your name, and another key of age with the value 
+  being your age.
 */
 
 //Code here
-
+let me = {
+  name: 'Andrew',
+  age: 32
+}
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -17,7 +21,16 @@
 
 //Code here
 
+let objectDog = {
+  name: 'Alexis',
+  color: 'White and black',
+  age: 1,
+  goodGirl: true
+};
 
+let dog = objectDog
+
+console.log(dog);
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
